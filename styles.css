@@ -58,7 +58,6 @@ header h2 {
     column-gap: 100px;
 }
 
-/* TO DO: trying to align inner flexboxes to the center of main flexbox*/
 .column div {
     width: 400px;
 }
@@ -83,6 +82,33 @@ header h2 {
 .column.one img {
     max-width: 100%;
     max-height: 100%;
+}
+
+/* second column-styles*/
+
+/*TODO: REVISAR COMO CENTRAR LAS CAJAS COMPLETAMENTE */
+.column.two {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-color: white;
+  
+}
+
+.column.two div {
+    margin-left: auto;   
+}
+
+.column.two figure {    
+    width: 40%;
+    text-align: center;
+
+}
+
+.fig-img {
+    border: 4px solid #1DA1F2;
+    width: 100%;
+    height: 100%;
 }
 
 /* footer-styles */
