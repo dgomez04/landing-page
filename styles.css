@@ -74,9 +74,13 @@ header h2 {
     color:azure;
 }
 
+#signup-button a {
+    text-decoration: none;
+    color: white;
+}
+
 #signup-button {
     font-weight: bold;
-    color: white;
     background-color: #1DA1F2;
     padding: 8px 25px;
     border-radius: 4px;
@@ -174,9 +178,14 @@ header h2 {
     margin-top: 0;
 }
 
+#signup a {
+    text-decoration: none;
+    color: white;
+
+}
+
 #signup {
     font-weight: bold;
-    color: white;
     background-color: #1DA1F2;
     padding: 8px 25px;
     border: 2px solid white;
